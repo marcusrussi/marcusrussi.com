@@ -120,6 +120,36 @@ var maps = [
     position: { sw: [41.29933105219036, -72.99546438870357],
                 ne: [41.31482903008587, -72.96855665326223] }
   },
+  {
+    name: 'Edgewood Park',
+    url: 'maps/edgewoodpark.png',
+    position: { sw: [41.31212950873465, -72.96162563977168],
+                ne: [41.326577055389386, -72.9468844044219] }
+  },
+  {
+    name: 'West River Memorial Park',
+    url: 'maps/westriver.png',
+    position: { sw: [41.29630031935377, -72.96334225354121],
+                ne: [41.314941846982975, -72.94761396527394] }
+  },
+  {
+    name: 'Historic Indian Trails',
+    url: 'maps/indiantrails.png',
+    position: { sw: [41.33030737932233, -73.00074297604488],
+                ne: [41.35208022106614, -72.98151708722219] }
+  },
+  {
+    name: 'Race Brook Tract',
+    url: 'maps/racebrooktract.png',
+    position: { sw: [41.301354149183624, -73.0199475925915],
+                ne: [41.315997481345065, -73.00382233739003] }
+  },
+  {
+    name: 'Race Brook Estates',
+    url: 'maps/racebrookestates.png',
+    position: { sw: [41.3423345382991, -73.01054913220332],
+                ne: [41.35100906351358, -72.99729920506581] }
+  },
 ];
 
 var movable = false;
