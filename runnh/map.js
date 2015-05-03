@@ -176,6 +176,30 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   maps.forEach(addLayer, {map: map, movable: movable});
+
+  var styles = [
+  {
+    "featureType": "water",
+    "stylers": [
+      { "hue": "#00f6ff" },
+      { "saturation": -48 }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "hue": "#ffc300" },
+      { "saturation": 73 }
+    ]
+  },{
+    "featureType": "poi.park",
+    "stylers": [
+      { "hue": "#00fff7" },
+      { "lightness": 100 }
+    ]
+  }
+];
+
+map.setOptions({styles: styles});
 }
 
 initialize();
